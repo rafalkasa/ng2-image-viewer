@@ -193,56 +193,56 @@
             <td align="center"></td>
             <td align="center">true</td>
             <td align="justify">It is the boolean that renders the tooltips above the buttons</td>
-        </tr> 
+        </tr>
         <tr>
             <td align="center">rotateRightTooltipLabel</td>
             <td align="center">string</td>
             <td align="center"></td>
             <td align="center">'Rotate right'</td>
             <td align="justify">It is the tooltip value you want for the rotate right button</td>
-        </tr>     
+        </tr>
         <tr>
             <td align="center">rotateLeftTooltipLabel</td>
             <td align="center">string</td>
             <td align="center"></td>
             <td align="center">'Rotate left'</td>
             <td align="justify">It is the tooltip value you want for the rotate left button</td>
-        </tr>   
+        </tr>
         <tr>
             <td align="center">resetZoomTooltipLabel</td>
             <td align="center">string</td>
             <td align="center"></td>
             <td align="center">'Reset zoom'</td>
             <td align="justify">It is the tooltip value you want for the reset zoom button</td>
-        </tr>     
+        </tr>
         <tr>
             <td align="center">fullscreenTooltipLabel</td>
             <td align="center">string</td>
             <td align="center"></td>
             <td align="center">'Fullscreen'</td>
             <td align="justify">It is the tooltip value you want for the fullscreen button</td>
-        </tr>     
+        </tr>
         <tr>
             <td align="center">downloadTooltipLabel</td>
             <td align="center">string</td>
             <td align="center"></td>
             <td align="center">'Download'</td>
             <td align="justify">It is the tooltip value you want for the download button</td>
-        </tr>    
+        </tr>
         <tr>
             <td align="center">showPDFOnlyLabel</td>
             <td align="center">string</td>
             <td align="center"></td>
             <td align="center">'Show only PDF'</td>
             <td align="justify">It is the tooltip value you want for the show PDF only button</td>
-        </tr>  
+        </tr>
         <tr>
             <td align="center">openInNewTabTooltipLabel</td>
             <td align="center">string</td>
             <td align="center"></td>
             <td align="center">'Open in new tab'</td>
             <td align="justify">It is the tooltip value you want for the open in new tab button</td>
-        </tr>  
+        </tr>
         <tr>
             <td align="center">onNext</td>
             <td align="center">EventEmitter</td>
@@ -267,7 +267,7 @@ To install this library, run:
 
 ```bash
 $ npm install iv-viewer --save
-$ npm install ng2-image-viewer --save
+$ npm install image-viewer --save
 ```
 
 ## Consuming the library
@@ -281,7 +281,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { ImageViewerModule } from 'ng2-image-viewer';
+import { ImageViewerModule } from 'image-viewer';
 
 @NgModule({
   declarations: [
@@ -303,7 +303,7 @@ Now just add the these codes on your angular-cli.json file:
 
 ```json
 "styles": [
-    "../node_modules/ng2-image-viewer/scss/imageviewer.scss"
+    "../node_modules/image-viewer/imageviewer.scss"
 ],
 ```
 
@@ -326,12 +326,6 @@ Once your library is imported, you can use its components, directives and pipes 
     <li> Some design changes</li>
     <li> Smart preview on container</li>
     <li> Better button adjustment on mobile devices</li>
-</ul>
-
-<h4>- 4.0:</h4>
-<ul>
-    <li> Remove gulp to create project package and switch to ng build!</li>
-    <li> Upgrade to Angular 10</li>
 </ul>
 
 <h4>- 3.0:</h4>
