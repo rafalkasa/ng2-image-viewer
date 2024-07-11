@@ -1,6 +1,6 @@
 {
     "name": "ng2-image-viewer",
-    "version": "4.0.0",
+    "version": "3.8.0",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
@@ -8,9 +8,9 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "build": "ng build --prod && yarn copy:scss",
-        "npm_pack": "cd dist/ng2-image-viewer && npm pack",
+        "run n": "cd dist/ng2-image-viewer && npm pack",
         "package": "npm run build_lib && npm run npm_pack",
-        "copy:scss": "mkdir dist\\ng2-image-viewer\\scss && cp projects/image-viewer/src/lib/*.scss dist/ng2-image-viewer/scss"
+        "copy:scss": "mkdir dist\\ng2-image-viewer\\scss && copy projects\\image-viewer\\src\\lib\\*.scss dist\\ng2-image-viewer\\scss"
     },
     "repository": {
         "type": "git",
@@ -27,7 +27,7 @@
         "angular 4",
         "angular 5",
         "angular 6",
-        "angular 10",
+        "angular 8",
         "pdf",
         "pdf viewer",
         "url image viewer",
@@ -38,17 +38,17 @@
         "url": "https://github.com/brenoprata10/ng2-image-viewer/issues"
     },
     "dependencies": {
-        "@angular/animations": "~10.2.4",
-        "@angular/common": "~10.2.4",
-        "@angular/compiler": "~10.2.4",
-        "@angular/core": "~10.2.4",
-        "@angular/forms": "~10.2.4",
-        "@angular/platform-browser": "~10.2.4",
-        "@angular/platform-browser-dynamic": "~10.2.4",
-        "@angular/router": "~10.2.4",
+        "@angular/animations": "~8.2.14",
+        "@angular/common": "~8.2.14",
+        "@angular/compiler": "~8.2.14",
+        "@angular/core": "~8.2.14",
+        "@angular/forms": "~8.2.14",
+        "@angular/platform-browser": "~8.2.14",
+        "@angular/platform-browser-dynamic": "~8.2.14",
+        "@angular/router": "~8.2.14",
         "rxjs": "~6.5.4",
         "tslib": "^1.10.0",
-        "zone.js": "~0.10.3",
+        "zone.js": "~0.9.1",
         "core-js": "^3.6.4",
         "lodash": "^4.17.15",
         "snyk": "^1.293.0",
@@ -56,11 +56,11 @@
         "natives": "^1.1.6"
     },
     "devDependencies": {
-        "@angular-devkit/build-angular": "~0.1002.2",
-        "@angular-devkit/build-ng-packagr": "~0.1002.0",
-        "@angular/cli": "~10.2.2",
-        "@angular/compiler-cli": "~10.2.4",
-        "@angular/language-service": "~10.2.4",
+        "@angular-devkit/build-angular": "~0.803.28",
+        "@angular-devkit/build-ng-packagr": "~0.803.28",
+        "@angular/cli": "~8.3.26",
+        "@angular/compiler-cli": "~8.2.14",
+        "@angular/language-service": "~8.2.14",
         "@types/jasmine": "~3.5.4",
         "@types/jasminewd2": "~2.0.8",
         "codelyzer": "^5.2.1",
@@ -74,8 +74,8 @@
         "protractor": "~5.4.3",
         "ts-node": "~8.6.1",
         "tslint": "~5.20.1",
-        "typescript": "~4.0.5",
-        "@types/node": "^13.7.1",
+        "typescript": "~3.4.1",
+        "@types/node": "^12.12.68",
         "ng-packagr": "^9.0.0",
         "node-sass": "^5.0.0"
     },
